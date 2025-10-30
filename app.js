@@ -1,6 +1,5 @@
 function greet (name) {
-    const newLocal = 'Hello, $(name)! ';
-    return newLocal;
+    return `Hello, ${name}!`;
 }
 module.exports = greet;// Ensure function is exportable
 
