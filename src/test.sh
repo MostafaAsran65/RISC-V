@@ -3,8 +3,8 @@
 
 
 
-EXPECTED= "Hello,Test!"
-OUTPUT= $(node -e "console.log(require('./app')('Test'))")
+EXPECTED="Hello,Test!"
+OUTPUT=$(node -e "console.log(require('./app')('Test'))")
 if [ "$OUTPUT"=="$EXPECTED" ]; then
 
   echo "Test passed"
