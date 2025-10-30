@@ -4,7 +4,7 @@
    
    
     "version": "1.0.0",
-    "description": "A simple Node.js  app for GitHub Actions PR testing",
+    "description": "A simple    Node.js  app for GitHub Actions PR testing",
 
     "main": "src/app.js",
     

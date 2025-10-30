@@ -1,3 +1,4 @@
+// This is a new comment for the pull request test
 function greet (name) {
     return `Hello, ${name}!`;
 }
@@ -5,7 +6,7 @@ module.exports = greet;// Ensure function is exportable
 
 // If run directly,print output (useful for debugging)
 
-if (require. main== module) {
+// if (require. main== module) {
 
-  console.log(greet ( " World ") ) ;  
-}
+//   console.log(greet ( "World") ) ;  
+// }
