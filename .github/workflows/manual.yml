@@ -5,4 +5,4 @@ jobs:
     runs—on: ubuntu-latest
     steps:
       — name: Deploy application
-      run: echo "Deploy"
+      run: echo "Deploy aplication"
