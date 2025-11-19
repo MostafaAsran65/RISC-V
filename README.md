@@ -102,18 +102,13 @@
    ```
 ## 🔗 Group 3: System & Integration
  ## 5. Performance & PPA Analyst
-   Responsibilities:
-   
-   Benchmarking (MLPerf, Rodinia).
-   
-   Power, Area, and Frequency analysis.
-   
-   🎯 Mission: Extract IPC, stalls, cache stats, and energy indicators using CSR counters.
-   
-   📂 RTL Ownership:
-   
+  * **Responsibilities:**
+    * Benchmarking (MLPerf, Rodinia).
+    * Power, Area, and Frequency analysis.
+* **🎯 Mission:** Extract IPC, stalls, cache stats, and energy indicators using CSR counters.
+
+   **📂 RTL Ownership:**
    ```text
-   
    VX_csr_unit.sv
    VX_csr_data.sv
    VX_commit.sv
@@ -163,9 +158,13 @@
    VX_gpu_pkg.sv
    VX_define.vh
    VX_config.vh
+   VX_platform.vh
    VX_stream_xbar.sv
+   VX_stream_arb.sv
    VX_elastic_buffer.sv
    VX_fifo_queue.sv
+   VX_sp_ram.sv
+   VX_dp_ram.sv
    ```
    ---
    
