@@ -39,3 +39,25 @@ VX_cache_data.sv
 VX_cache_tags.sv
 VX_cache_flush.sv
 VX_cache_mshr.sv
+
+---
+
+## 🧠 Group 2: Architecture & Logic
+
+### 3. Microarchitecture Designer
+* **Responsibilities:**
+    * Pipeline tuning and optimization.
+    * Thread/Warp scheduling logic.
+    * General RTL logic optimization.
+* **🎯 Mission:** Enhance IPC (Instructions Per Cycle) by improving scheduling, hazard handling, and pipeline behavior.
+
+**📂 RTL Ownership:**
+```text
+VX_schedule.sv
+VX_issue.sv
+VX_issue_slice.sv
+VX_scoreboard.sv
+VX_fetch.sv
+VX_decode.sv
+VX_wctl_unit.sv
+VX_split_join.sv
