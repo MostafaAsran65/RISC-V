@@ -63,7 +63,7 @@ VX_decode.sv
 VX_wctl_unit.sv
 VX_split_join.sv
 ```
-4. Verification & QA Engineer
+## 4. Verification & QA Engineer
 Responsibilities:
 
 Build SystemVerilog/UVM testbenches.
@@ -84,8 +84,8 @@ VX_tcu_pkg.sv
 VX_tcu_fedp_bhf.sv
 VX_tcu_fedp_dsp.sv
 ```
-🔗 Group 3: System & Integration
-5. Performance & PPA Analyst
+## 🔗 Group 3: System & Integration
+## 5. Performance & PPA Analyst
 Responsibilities:
 
 Benchmarking (MLPerf, Rodinia).
@@ -105,7 +105,7 @@ VX_writeback.sv
 VX_branch_ctl_if.sv
 VX_sched_csr_if.sv
 ```
-6. Integration & Reproducibility Engineer
+## 6. Integration & Reproducibility Engineer
 Responsibilities:
 
 Memory subsystem integration.
@@ -126,7 +126,7 @@ VX_mem_bank_adapter.sv
 vortex_afu.sv
 ccip_std_afu.sv
 ```
-7. Project Manager & Top-Level Integrator
+## 7. Project Manager & Top-Level Integrator
 Responsibilities:
 
 Maintain project hierarchy and file structure.
