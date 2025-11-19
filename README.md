@@ -151,12 +151,16 @@ VX_stream_xbar.sv
 VX_elastic_buffer.sv
 VX_fifo_queue.sv
 ```
-📊 Summary Table
-#	Role	RTL Scope	Technical Mission
-1	ASIC Flow Lead	Cache System	SRAM macro integration
-2	Physical Design	Execution Units	Timing closure & datapath optimization
-3	Microarchitecture	Core Control	IPC & scheduling improvement
-4	Verification Eng.	Tensor Core	Full functional verification
-5	Performance Analyst	CSR & Commit	PPA reports and profiling
-6	Integration Eng.	Memory Interface	AXI/DRAM dataflow optimization
-7	Project Manager	Top-Level System	Full-chip integration & configs
+---
+
+## 📊 Summary Table
+
+| # | Role | RTL Scope | Technical Mission |
+| :---: | :--- | :--- | :--- |
+| **1** | **ASIC Flow Lead** | Cache System | SRAM macro integration |
+| **2** | **Physical Design** | Execution Units | Timing closure & datapath optimization |
+| **3** | **Microarchitecture** | Core Control | IPC & scheduling improvement |
+| **4** | **Verification Eng.** | Tensor Core | Full functional verification |
+| **5** | **Performance Analyst** | CSR & Commit | PPA reports and profiling |
+| **6** | **Integration Eng.** | Memory Interface | AXI/DRAM dataflow optimization |
+| **7** | **Project Manager** | Top-Level System | Full-chip integration & configs |
