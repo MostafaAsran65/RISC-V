@@ -138,9 +138,9 @@
    VX_mem_scheduler.sv
    VX_mem_coalescer.sv
    VX_axi_adapter.sv
+   VX_axi_write_ack.sv
    VX_mem_bank_adapter.sv
-   vortex_afu.sv
-   ccip_std_afu.sv
+   VX_mem_data_adapter.sv
    ```
  ## 7. Project Manager & Top-Level Integrator
    Responsibilities:
