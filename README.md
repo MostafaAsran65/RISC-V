@@ -74,7 +74,7 @@ Validate tensor operations and math units.
 
 📂 RTL Ownership:
 
-Plaintext
+```text
 
 VX_tcu_top.sv
 VX_tcu_unit.sv
@@ -83,6 +83,7 @@ VX_tcu_int.sv
 VX_tcu_pkg.sv
 VX_tcu_fedp_bhf.sv
 VX_tcu_fedp_dsp.sv
+```
 🔗 Group 3: System & Integration
 5. Performance & PPA Analyst
 Responsibilities:
@@ -95,7 +96,7 @@ Power, Area, and Frequency analysis.
 
 📂 RTL Ownership:
 
-Plaintext
+```text
 
 VX_csr_unit.sv
 VX_csr_data.sv
@@ -103,6 +104,7 @@ VX_commit.sv
 VX_writeback.sv
 VX_branch_ctl_if.sv
 VX_sched_csr_if.sv
+```
 6. Integration & Reproducibility Engineer
 Responsibilities:
 
@@ -116,14 +118,14 @@ Documentation & CI/CD consistency.
 
 📂 RTL Ownership:
 
-Plaintext
-
+```text
 VX_mem_scheduler.sv
 VX_mem_coalescer.sv
 VX_axi_adapter.sv
 VX_mem_bank_adapter.sv
 vortex_afu.sv
 ccip_std_afu.sv
+```
 7. Project Manager & Top-Level Integrator
 Responsibilities:
 
@@ -137,8 +139,7 @@ Integrate all subsystems (Clusters, Sockets, Cores).
 
 📂 RTL Ownership:
 
-Plaintext
-
+```text
 Vortex.sv
 VX_core.sv
 VX_socket.sv
@@ -149,6 +150,7 @@ VX_config.vh
 VX_stream_xbar.sv
 VX_elastic_buffer.sv
 VX_fifo_queue.sv
+```
 📊 Summary Table
 #	Role	RTL Scope	Technical Mission
 1	ASIC Flow Lead	Cache System	SRAM macro integration
