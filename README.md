@@ -38,7 +38,25 @@
    VX_cache_flush.sv
    VX_cache_mshr.sv
    ```
+ ## 2. Physical Design Engineer
+   Responsibilities:
    
+   Floorplanning & timing closure.
+   
+   Congestion analysis + signal integrity checks.
+   
+   🎯 Mission: Optimize critical datapaths to reach target ASIC frequencies.
+   
+   📂 RTL Ownership:
+   
+   ```text
+   VX_alu_unit.sv
+   VX_fpu_unit.sv
+   VX_lsu_unit.sv
+   VX_multiplier.sv
+   VX_divider.sv
+   VX_serial_mul.sv
+   ```   
    ---
    
 ## 🧠 Group 2: Architecture & Logic
